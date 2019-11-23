@@ -18,6 +18,7 @@
 		D5EFF6252388D834005759E3 /* line1.png in Resources */ = {isa = PBXBuildFile; fileRef = D5EFF6222388D834005759E3 /* line1.png */; };
 		D5EFF6262388D834005759E3 /* line2.png in Resources */ = {isa = PBXBuildFile; fileRef = D5EFF6232388D834005759E3 /* line2.png */; };
 		D5EFF6282388DA44005759E3 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = D5EFF6272388DA44005759E3 /* README.md */; };
+		D5EFF62A23894595005759E3 /* rect.png in Resources */ = {isa = PBXBuildFile; fileRef = D5EFF62923894595005759E3 /* rect.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		D5EFF6222388D834005759E3 /* line1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line1.png; sourceTree = "<group>"; };
 		D5EFF6232388D834005759E3 /* line2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line2.png; sourceTree = "<group>"; };
 		D5EFF6272388DA44005759E3 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D5EFF62923894595005759E3 /* rect.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rect.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				D5EFF6222388D834005759E3 /* line1.png */,
 				D5EFF6232388D834005759E3 /* line2.png */,
 				D5EFF6212388D834005759E3 /* line3.png */,
+				D5EFF62923894595005759E3 /* rect.png */,
 			);
 			path = assets;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5A92D752385FFA800F0E471 /* LaunchScreen.storyboard in Resources */,
+				D5EFF62A23894595005759E3 /* rect.png in Resources */,
 				D5A92D722385FFA800F0E471 /* Preview Assets.xcassets in Resources */,
 				D5EFF6262388D834005759E3 /* line2.png in Resources */,
 				D5EFF6282388DA44005759E3 /* README.md in Resources */,

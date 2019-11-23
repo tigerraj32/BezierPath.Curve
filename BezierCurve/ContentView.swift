@@ -116,12 +116,16 @@ struct ContentView: View {
             Path { path in
                 path.move(to: CGPoint(x: 10, y: 100))
                 path.addLine(to: CGPoint(x: 200, y:100))
-            }.stroke()
-                //.stroke(Color.red, lineWidth: 10)
-               // .stroke(Color.red, style: StrokeStyle(lineWidth: 2, dash: [2]))
-            //.stroke(lineWidth: 10)
-            //.stroke(Color.red)
-            //foregroundColor(Color.red)
+                path.addLine(to: CGPoint(x:200,y: 200))
+                path.addLine(to: CGPoint(x: 10, y: 200))
+                path.addLine(to: CGPoint(x: 10, y : 100))
+            }.stroke(Color.red, style: StrokeStyle(lineWidth: 10, lineCap: .square, lineJoin: .miter))
+            
+        
+            
+           
+                
+                
             
         }
     }
