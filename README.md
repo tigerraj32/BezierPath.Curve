@@ -41,7 +41,7 @@ Path { path in
 
 ## Triangle / Rectangle
 
-![](https://github.com/tigerraj32/BezierPath.Curve/blob/master/BezierCurve/assets/rectpng)
+![](https://github.com/tigerraj32/BezierPath.Curve/blob/master/BezierCurve/assets/rect.png)
 
 ```swift
 Path { path in
