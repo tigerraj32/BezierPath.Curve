@@ -15,7 +15,7 @@ Path { path in
 ```
 
 
-** Modify line width and color **
+**Modify line width and color **
 ![](https://github.com/tigerraj32/BezierPath.Curve/blob/master/BezierCurve/assets/line2.png)
 
 ```swift
