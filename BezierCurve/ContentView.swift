@@ -53,13 +53,23 @@ struct CustomShape {
     
     static func dashLine() -> Path {
         return
-        Path { path in
-            
-            path.move(to: CGPoint(x: 10, y: 100))
-            path.addLine(to: CGPoint(x: 100, y: 100))
-            
+            Path { path in
+                
+                path.move(to: CGPoint(x: 10, y: 100))
+                path.addLine(to: CGPoint(x: 100, y: 100))
+                
         }
         //.stroke(style: StrokeStyle(lineWidth: 10, lineCap: .round, dash: [10]))
+    }
+    
+    static func rect() -> Path {
+        Path { path in
+            path.move(to: CGPoint(x: 10, y: 100))
+            path.addLine(to: CGPoint(x: 200, y:100))
+            path.addLine(to: CGPoint(x:200,y: 200))
+            path.addLine(to: CGPoint(x: 10, y: 200))
+            path.addLine(to: CGPoint(x: 10, y : 100))
+        }
     }
     
 }
@@ -76,56 +86,32 @@ struct Heart: View {
         }
     }
 }
+/*
 
-//struct ContentView: View {
-//    var body: some View {
-//        VStack{
-//            //CustomShape.path1().stroke(Color.red)
-//            //CustomShape.path2().stroke(Color.red)
-//            //CustomShape.circle().stroke()
-//            //CustomShape.heart().foregroundColor(Color.red).scaleEffect(0.5)
-//            //Heart().rotationEffect(.degrees(-45)).foregroundColor(Color.red).scaleEffect(0.5)
-//
-//            Path { path in
-//                path.move(to: CGPoint(x: 10, y: 100))
-//                path.addLine(to: CGPoint(x: 200, y: 100))
-//            }
-//
-//            .stroke(style: StrokeStyle(lineWidth: 1, lineCap: .round, lineJoin: .round, dash: [2], dashPhase: 0))
-//
-//
-//
-//        }
-//    }
-//}
+struct ContentView: View {
+    var body: some View {
+        VStack{
+            CustomShape.path1().stroke(Color.red)
+            CustomShape.path2().stroke(Color.red)
+            CustomShape.circle().stroke()
+            CustomShape.heart().foregroundColor(Color.red).scaleEffect(0.5)
+        Heart().rotationEffect(.degrees(-45)).foregroundColor(Color.red).scaleEffect(0.5)
+            CustomShape.rect()
+                       .stroke(Color.red, style: StrokeStyle(lineWidth: 10, lineCap: .square, lineJoin: .miter))
+            
+        }
+    }
+}
 
 
-
-
-
-
-
-
-
+*/
 
 struct ContentView: View {
     var body: some View {
         VStack{
             Text("Line Drawing")
-            
-            Path { path in
-                path.move(to: CGPoint(x: 10, y: 100))
-                path.addLine(to: CGPoint(x: 200, y:100))
-                path.addLine(to: CGPoint(x:200,y: 200))
-                path.addLine(to: CGPoint(x: 10, y: 200))
-                path.addLine(to: CGPoint(x: 10, y : 100))
-            }.stroke(Color.red, style: StrokeStyle(lineWidth: 10, lineCap: .square, lineJoin: .miter))
-            
-        
-            
-           
-                
-                
+            CustomShape.rect()
+                .stroke(Color.red, style: StrokeStyle(lineWidth: 10, lineCap: .square, lineJoin: .miter))
             
         }
     }
