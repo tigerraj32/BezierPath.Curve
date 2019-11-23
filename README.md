@@ -14,8 +14,8 @@ Path { path in
 }
 ```
 
+**Modify Line Width and Color**
 
-**Modify line width and color **
 ![](https://github.com/tigerraj32/BezierPath.Curve/blob/master/BezierCurve/assets/line2.png)
 
 ```swift
@@ -25,8 +25,8 @@ Path { path in
 }.stroke(Color.red, lineWidth: 10)
 ```
 
+**Adding style to line: Dash line**
 
-**Dash line : Adding style to line **
 
 ![](https://github.com/tigerraj32/BezierPath.Curve/blob/master/BezierCurve/assets/line3.png)
 
