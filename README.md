@@ -3,7 +3,7 @@
 In this tutorial series we will go through lots and lots of custom drawing with bezier curve.
 
 **Line drawing from point A to Point B**
-![](https://github.com/tigerraj32/BezierCurve-/line1.png)
+![](https://github.com/tigerraj32/BezierPath.Curve/blob/master/BezierCurve/assets/line1.png)
 
 ```swift 
 Path { path in
@@ -12,7 +12,7 @@ Path { path in
 }
 ```
 ** Modify line width and color **
-![](https://github.com/tigerraj32/BezierCurve-/line2.png)
+![](https://github.com/tigerraj32/BezierPath.Curve/blob/master/BezierCurve/assets/line2.png)
 
 ```swift
 Path { path in
@@ -23,7 +23,7 @@ Path { path in
 
 **Dash line : Adding style to line **
 
-![](https://github.com/tigerraj32/BezierCurve-/line3.png)
+![](https://github.com/tigerraj32/BezierPath.Curve/blob/master/BezierCurve/assets/line3.png)
 
 ```swift
 Path { path in
