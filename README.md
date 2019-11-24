@@ -68,3 +68,37 @@ Path { path in
         
         }.stroke(Color.red, lineWidth: 3) 
 ```
+
+
+
+## Heart
+
+![](https://github.com/tigerraj32/BezierPath.Curve/blob/master/BezierCurve/assets/heart.png)
+
+**Option 1**
+
+```swift
+ZStack {
+    Rectangle().frame(width: 200, height: 200)
+    
+    Circle().frame(width: 200, height:200).offset(x:100)
+    
+    Circle().frame(width: 200, height: 200).offset(y:-100)
+    
+    }.rotationEffect(.degrees(-45))
+    .foregroundColor(Color.red)
+    .scaleEffect(0.5)
+```
+
+
+**Option 2**
+```swift
+Path { path in
+        
+        path.move(to: CGPoint(x: 200, y:80))
+        path.addCurve(to: CGPoint(x: 200, y: 350), control1: CGPoint(x: 380,y:20), control2: CGPoint(x:380,y: 200))
+        path.addCurve(to: CGPoint(x: 200, y: 80), control1: CGPoint(x: 20, y:200), control2: CGPoint(x: 20, y: 20))
+    }.foregroundColor(Color.red).scaleEffect(0.5)
+```
+
+
