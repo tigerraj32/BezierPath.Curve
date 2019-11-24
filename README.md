@@ -53,3 +53,19 @@ Path { path in
     }.stroke(Color.red, style: StrokeStyle(lineWidth: 10, lineCap: .square, lineJoin: .miter))
            
 ```
+
+
+##Circle
+
+![](https://github.com/tigerraj32/BezierPath.Curve/blob/master/BezierCurve/assets/cricle.png)
+
+```swift
+Path { path in
+        path.move(to: CGPoint(x:0, y: 200))
+        path.addCurve(to: CGPoint(x:200, y:0), control1: CGPoint(x: 0, y:100), control2: CGPoint(x:100, y:0))
+        path.addCurve(to: CGPoint(x: 400, y: 200), control1: CGPoint(x: 300, y: 0), control2: CGPoint(x: 400, y: 100))
+        path.addCurve(to: CGPoint(x: 200, y: 400), control1: CGPoint(x: 400, y: 300), control2: CGPoint(x:300, y: 400))
+        path.addCurve(to: CGPoint(x: 0, y: 200), control1: CGPoint(x: 100, y: 400), control2: CGPoint(x: 0, y: 300))
+        
+        }.stroke(Color.red, lineWidth: 3) 
+```

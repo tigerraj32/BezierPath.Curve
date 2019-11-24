@@ -110,8 +110,8 @@ struct ContentView: View {
     var body: some View {
         VStack{
             Text("Line Drawing")
-            CustomShape.rect()
-                .stroke(Color.red, style: StrokeStyle(lineWidth: 10, lineCap: .square, lineJoin: .miter))
+           // CustomShape.rect().stroke(Color.red, style: StrokeStyle(lineWidth: 10, lineCap: .square, lineJoin: .miter))
+            CustomShape.circle().stroke(Color.red, lineWidth: 3)
             
         }
     }
