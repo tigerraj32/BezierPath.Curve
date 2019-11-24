@@ -57,7 +57,7 @@ Path { path in
 
 ##Circle
 
-![](https://github.com/tigerraj32/BezierPath.Curve/blob/master/BezierCurve/assets/cricle.png)
+![](https://github.com/tigerraj32/BezierPath.Curve/blob/master/BezierCurve/assets/circle.png)
 
 ```swift
 Path { path in
