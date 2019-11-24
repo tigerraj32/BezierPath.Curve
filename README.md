@@ -54,8 +54,7 @@ Path { path in
            
 ```
 
-
-##Circle
+## Circle
 
 ![](https://github.com/tigerraj32/BezierPath.Curve/blob/master/BezierCurve/assets/circle.png)
 
