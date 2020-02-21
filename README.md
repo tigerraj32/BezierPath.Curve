@@ -1,4 +1,6 @@
 [Demo video](https://vimeo.com/106757336)
+[Demo Video Page](https://medium.com/sketch-app/mastering-the-bezier-curve-in-sketch-4da8fdf0dbbb)
+[Snippet](https://www.bignerdranch.com/blog/core-graphics-part-4-a-path-a-path/)
 # BezierPath.Curve
 
 In this tutorial series we will go through lots and lots of custom drawing with bezier curve.
